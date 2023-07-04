@@ -18,16 +18,20 @@
           <img src="/assets/img/logo.png" alt="ie logo" class="w-fit h-fit max-w-[40px] max-h-[60px]"  />
         </div>
         
-        <h1 class="text-bold text-5xl">Welcome to <strong class="text-emerald-300">Utraffic</strong></h1>
-        <h1 class="text bold text-5xl">Sign In to Continue.</h1>
+        <h1 class="text-bold text-5xl leading-2 tracking-wide">
+          Welcome to 
+          <strong class="text-emerald-300">Utraffic</strong>
+          <br />
+          Sign In to Continue.
+        </h1>
       </div>
 
-      <div class="mt-10">
+      <div class="mt-6">
         <p>Don't have an account? <a href="" class="underline underline-offset-2 font-semibold">Create a account</a></p>
         <p>It takes less than a minute.</p>
       </div>
 
-      <div class="mt-10">
+      <div class="mt-6">
         <form>
           <div class="flex flex-col justify-center align-start">
             <label for="email">Email</label>
