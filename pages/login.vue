@@ -13,6 +13,11 @@
     </div>
     <div class="flex flex-col justify-center items-center w-full h-full">
       <div class="flex flex-col justify-start">
+        <div class="flex flex-row justify-center items-center gap-12 mb-5">
+          <img src="/assets/img/logo-ie-header.png" alt="ie logo" class="w-[50px] h-[50px]" />
+          <img src="/assets/img/logo.png" alt="ie logo" class="w-fit h-fit max-w-[40px] max-h-[60px]"  />
+        </div>
+        
         <h1 class="text-bold text-5xl">Welcome to <strong class="text-emerald-300">Utraffic</strong></h1>
         <h1 class="text bold text-5xl">Sign In to Continue.</h1>
       </div>
@@ -27,7 +32,7 @@
           <div class="flex flex-col justify-center align-start">
             <label for="email">Email</label>
             <input
-              class="w-[20rem] border px-2 py-1 m-1"
+              class="w-[20rem] border px-2 py-1 m-1 focus:outline focus:outline-emerald-400 focus:rounded focus:outline-2"
               type="email"
               name="email"
               id="email"
@@ -36,7 +41,7 @@
 
             <label for="password" class="mt-5">Password</label>
             <input
-              class="w-[20rem] border px-2 py-1 m-1"
+              class="w-[20rem] border px-2 py-1 m-1 focus:outline focus:outline-emerald-400 focus:rounded focus:outline-2"
               type="password"
               name="password"
               id="password"
